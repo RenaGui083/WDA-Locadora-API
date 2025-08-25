@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar header {
-    font-size: 22px;
+    font-size:  22px;
     color: white;
     text-align: center;
     line-height: 70px;
@@ -152,16 +152,6 @@ label #cancel {
     flex-direction: column;
 }
 
-#graficoPizza {
-    /* margin: auto;
-    width: 63vh !important;
-    height: 28vh !important; */
-}
-
-#graficoPizza2 {
-    /* width: 63vh !important;
-    height: 28vh !important; */
-}
 
 
 .secaoGrafico1 {
@@ -224,7 +214,7 @@ label #cancel {
     background-color: white;
 }
 
-.sectionDado {
+ .sectionDado {
     width: 30%;
 } 
 
@@ -311,17 +301,7 @@ tr:hover {
     align-self: start;
 }
 
-#graficoDonut {
-    /* margin: auto; */
-    /* width: 24vh !important;
-    height: 25vh !important; */
-    /* margin-bottom: 5vh; */
-}
-
 @media (max-width: 768px) {
-    .sidebar header {
-    font-size: 130%;
-}
 
     html,
     body {
@@ -356,7 +336,10 @@ tr:hover {
         display: flex;
         align-items: center;
     }
-
+    .sidebar header {
+    font-size:  130%;
+    
+}
 
     .sidebar ul a {
         font-size: 96%;
@@ -550,5 +533,4 @@ tr:hover {
         opacity: 0;
         transform: translateY(20px);
     }
-
 }
